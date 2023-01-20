@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dash.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+                <a href="#hero">
+            <h1>comune de yaoundé 7</h1>
+          </a>
+                </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.php#hero">Accueil</a></li>
+            <li><a href="#histoire">Notre histoire</a></li>
+            <li><a href="#personnel">Personnel</a></li>
+            <li><a href="#conseil">conseil</a></li>
+            <li><a href="#missions">Missions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>DEtails <span></span></h1>
+        <h1>Sur<span></span></h1>
+        <h1>Site de commune<span></span></h1>
+        
+      </div>
+    </div>
+  </section>    
+
+
+    <!--accueil end-->
+
+    <!--histoire section start-->
+
+
+    <section class="histoire" id="histoire">
+
+        <center><h1 style="font-size: 5rem;">L'histoire de la mairie</h1></center>
+                <div class="grand">
+            <div class="div">
+            <div class="un">
+                <p><p><b>C’est en 1472 que le portugais Fernando Pô, au cours d’un périple le long de la côte Ouest africaine, découvre l’estuaire du Wouri au fond de la baie de Biafra. Il donne le nom de Rio dos Camaroes au fleuve à cause de la présence de nombreux crustacés qui flottent sur les eaux. En 1508, un certain Duarte Pacheco Pereira affirme que les gens du Rios dos Camaroes disposent de pêcheries, mais ne donne aucune indication sur la présence d’une agglomération importante sur le Rio. Il faut attendre trois siècles plus tard, en 1810 pour entendre le britannique Roberton parler de deux villes situées sur le Rio, l’une en face de l’autre à 15miles de l’entrée de l’estuaire. L’une des deux villes située sur la rive gauche est la ville commerçante; il l’appelle Cameroontown. Sur la rive droite, il n’y a aucune activité commerciale; la ville est appelée Hickorytown. C’est Richard Mother Jackson qui, le premier en 1826, donne tous les détails sur Cameroontown. D’après lui, Cameroontown comprend de nombreux quartiers construits le long des berges du fleuve sur les plateaux qui le dominent. En fait, ce que Jackson appelle quartiers, ce sont les villages regroupant les différents sous lignages des lignages des descendants d’un même ancêtre: “Ewalè a Mbedi”, Ewalè qui est l’éponyme de Douala. Les villages de chaque sous lignage sont disposés en bandes perpendiculaires au fleuve, sur le plateau appartenant au lignage regroupé en clan.</b></p></p>
+                
+            </div>
+            </div>
+                    
+        </div>
+            </section>
+
+
+      <!--histoire section end-->
+      <!--histoire section start-->
+
+        
+    <section class="conseil" id="conseil">
+
+        <center><h1 class="section-title" style="font-size: 3rem;">le <span>Conseil</span> municipal</h1></center>
+        <div class="row">
+                    <div class="col">
+                <div class="card">
+                    <img src="../images/CONSEILLÉ.png" alt="Jane" style="width:100%">
+                    <div class="contain">
+                    <h2>ghqfsqg</h2>
+                    <p class="title">wxhfw</p>
+                    <p>example@example.com</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/EMAG_balanced_meal_shutterstock_54369673_TOP_0_0.jpg" alt="Jane" style="width:100%">
+                    <div class="contain">
+                    <h2>philipe</h2>
+                    <p class="title">cuisinier en chef</p>
+                    <p>example@example.com</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/erreur.png" alt="Jane" style="width:100%">
+                    <div class="contain">
+                    <h2>dimitri</h2>
+                    <p class="title">sécrétaire</p>
+                    <p>example@example.com</p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </section>
+    
+
+      <!--histoire section end-->
+
+      <!--section municipal start-->
+
+      <section class="histoire" id="personnel">
+
+        <center><h1 class="section-title" style="font-size: 3rem;">le <span>personnel</span> de la Mairie</h1></center>
+        <div class="row">
+                    <div class="col">
+                <div class="card">
+                    <img src="../images/depositphotos_14006320-stock-illustration-teamwork-union-logo-vector.jpg" alt="hfsfsd" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>hfsfsd&nbsp&nbspqhhfq</h2>
+                    <p class="title">qsgfqghs</p>
+                    <p>wxcwgh@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/Et3-2CasUtilisation.pdf">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/COVID-19-Relief_Small-Farms-.jpg" alt="albert" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>albert&nbsp&nbspcamus</h2>
+                    <p class="title">ministre</p>
+                    <p>alfred@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/Capture d’écran de 2022-06-03 04-39-19.png" alt="Jean" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>Jean&nbsp&nbsppierre</h2>
+                    <p class="title">Expert comptable</p>
+                    <p>jeanbernard@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/depositphotos_14006320-stock-illustration-teamwork-union-logo-vector.jpg" alt="pierre" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>pierre&nbsp&nbspstagiaire</h2>
+                    <p class="title">pharmacien  0</p>
+                    <p>pierre@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/photo_2022-02-21_02-20-57.jpg" alt="paul" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>paul&nbsp&nbsphassan</h2>
+                    <p class="title">modérateur</p>
+                    <p>staf@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/logo_lion.jpeg" alt="richard" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>richard&nbsp&nbspmontier</h2>
+                    <p class="title">agriculteur</p>
+                    <p>montier@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/File_Anthon_Open_Source_Community_LOGO.svg" alt="arnold" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>arnold&nbsp&nbspazerty</h2>
+                    <p class="title">fonctionnaire</p>
+                    <p>azerty@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../images/Capture d’écran de 2022-06-03 04-20-49.png" alt="arnold" style="width:100%; height: 200px;">
+                    <div class="contain">
+                    <h2>arnold&nbsp&nbspjeuneviene</h2>
+                    <p class="title">architecte </p>
+                    <p>tacleur@gmail.com</p>
+                    <p><button class="button"><a href="" download="../cv/">Download Cv</a></button></p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </section>
+
+    <section class="histoire" id="missions">
+
+        <center><h1 class="section-title" style="font-size: 3rem;">les <span>Missions</span> de la Mairie</h1></center>
+        <div class="row">
+                        <div class="col">
+                <div class="card">
+                    <img src="../w3images/team1.jpg" alt="Jane" style="width:100%">
+                    <div class="contain">
+                    <h2>evenementiel</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>restoaration evenementiel historique</p>
+                    <p>example@example.com</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col">
+                <div class="card">
+                    <img src="../w3images/team1.jpg" alt="Jane" style="width:100%">
+                    <div class="contain">
+                    <h2>réinsertion</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>ceci sera donc la réabilitaion de notre cammarade</p>
+                    <p>example@example.com</p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </section>
+
+      <!--section conseil municipal end-->
+      <!-- Footer -->
+    <section id="footer">
+    <div class="footer container">
+        <div class="brand">
+                <a href="#hero">
+            <h1>comune de yaoundé 7</h1>
+          </a>
+                </div>
+        <h2>Your Complete Web Solution</h2>
+        
+        <p>Copyright © 2020 Arfan. All rights reserved</p>
+    </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./js/app.js"></script>
+  
+</body>
+</html>
