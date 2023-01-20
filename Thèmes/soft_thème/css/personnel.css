@@ -1,0 +1,268 @@
+:root{
+    --main-color : rgb(245, 185, 75);
+    --black: #13131a;
+    --bg: #13131a;
+    --border: .1rem solid rgb(1, 98, 116);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    --background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem; 
+}
+body{
+    background: #fff;
+}
+
+.header{ 
+    background: rgb(1, 98, 116);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.header{
+    height: 7rem;
+}
+ .logo{
+    height: 20rem;
+} 
+
+.header .navbar{
+    height: 5rem;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    margin: 0 5rem;
+    padding: 0 10rem;
+   
+}
+a{
+    color: #fff;
+}
+.header .navbar .con0{
+    display: inline-block;
+    margin: 1rem;
+    color: #ccc;
+}
+
+.header .navbar .con1{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: 1rem;
+}
+.header .icons div{
+   color: rgb(253, 250, 250);
+   cursor: pointer;
+   font-size: 2rem;
+   margin-left: 2rem;
+}
+.header .icons div:hover{
+    color: var(--main-color);
+}
+#menu-btn{
+    display: none;
+}
+.header .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: rgb(141, 206, 226);
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.header .search-form.active {
+    transform: scaleY(1);
+}
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: rgb(2, 2, 2);
+    padding: 1rem;
+    background: var(--border);
+    text-transform: none;
+}
+.header .search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+}
+.header .search-form label:hover{
+    color: var(--main-color);
+}
+
+
+.burger{
+    display: none;
+}
+
+
+.content{
+    margin: auto;
+    padding: 10rem;
+    top: 150%;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.content .conseille{
+    
+    width: 25%;
+    border-radius: 1rem;
+    padding: auto;
+    margin: 2rem;
+    
+}
+
+.content .conseille img{
+    background: #fff;
+    margin: auto;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin: 3rem;
+    
+}
+.content .conseille h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.content .conseille p{
+    text-align: justify;
+    margin: 1rem;
+}
+.content .conseille .cercle{
+    width: 100%;
+    height: 10rem;
+    display: inline-flex;
+    
+  
+}
+.content .conseille .cercle .circle{
+    background: #13131a;
+    height: 5rem;
+    width: 5rem;   
+    border-radius: 50%;
+    padding: 3rem;
+    margin: 1rem;
+}
+
+.cv{
+    height: 3rem;
+    width: 40%;
+    background: rgb(3, 86, 134);
+    border-radius: 1rem;
+    margin: 2rem;
+    color: white;
+
+}
+
+
+
+
+/*media querie*/
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    .content{
+        padding: 4rem;
+    }
+}
+@media (max-width:768px){
+   #menu-btn{
+       display: inline-block;
+   }
+   /* responsive du menu*/
+   .header .navbar{
+       position: absolute;
+       top: 100%; right: -100%;
+       background: rgb(141, 206, 226);
+       width: 30rem;
+       height: calc(100vh - 20rem);
+       border-radius: 2rem;
+   }
+
+   header .navbar.active{
+        right: 0%;
+   }
+
+   .header .navbar a{
+       color: var(--black);
+       display: block;
+       margin: 1.5rem;
+       padding: .5rem;
+       font-size: 2rem;
+   }
+   .header .search-form{
+       width: 90%;
+       right: 2rem;
+   }
+   .content{
+      
+       justify-content: center;
+       width: 100%;
+       margin: auto;
+       padding: 10rem;
+   }
+ 
+   .content .conseille{
+    width: 100%;
+  
+}
+.content .conseille  h3{
+    font-size: 2rem;
+}
+
+   .content .conseille  h4{
+    font-size: 1.5rem;
+}
+.content .conseille p{
+    font-size: 1.5rem;
+}
+
+
+
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+   }

@@ -1,0 +1,269 @@
+:root{
+    --main-color : rgb(245, 185, 75);
+    --black: #13131a;
+    --bg: #13131a;
+    --border: .1rem solid rgb(1, 98, 116);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    --background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem; 
+}
+
+.id{
+    margin: 0 20rem;
+    padding: 0 2rem;
+    width: 100%;
+}
+.header{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    
+}
+.header{
+    height: 7rem;
+}
+
+.header .navbar{
+    height: 7rem;
+    width: 100%;
+
+    
+}
+
+
+.header .navbar ul{
+    margin: 0;
+    padding: 1rem;
+   
+    
+}
+.header .navbar li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 1rem;
+  
+}
+.header .navbar a{
+    
+    text-decoration: none;
+    color: blanchedalmond;
+   
+    padding: 10px ;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .navbar .histoire:hover{
+    border-top: 5px solid purple;
+    background-color: RGBa(28, 77, 0, 0.3);
+
+}
+.header .navbar .conseil:hover{
+    border-top: 5px solid red;
+    background-color: RGBa(20, 77, 0, 0.3);
+}
+
+.header .navbar .personnel:hover{
+    border-top: 5px solid purple;
+    background-color: RGBa(28, 77, 0, 0.3);
+
+}
+.header .navbar .mission:hover{
+    border-top: 5px solid red;
+    background-color: RGBa(20, 77, 0, 0.3);
+}
+
+.header .navbar .acceuil:hover{
+    border-top: 5px solid red;
+    background-color: RGBa(20, 77, 0, 0.3);
+}
+
+/*mise en forme du bouton */
+
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    nav .id{
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+   
+}
+@media (max-width:768px){
+ 
+    nav .id{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+
+   /*accueil mise en forme*/
+.acceuil{
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+}
+.acceuil .content h3{
+     font-size: 2rem;
+}
+.acceuil .content p{
+ font-size: 1rem;
+}
+
+@media (max-width:450px){
+ html{
+     font-size: 50%;
+ }
+}
+/* section accueil style*/
+
+.accueil{
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ background: url("../img/index.png") no-repeat;
+ background-size: cover;
+ background-position: center;
+
+}
+.accueil .content{
+ max-width: 60rem;
+}
+.accueil .content h3:hover{
+ 
+ color: rgb(1, 98, 116);
+}
+.accueil .content h3{
+ font-size: 6rem;
+ text-transform: uppercase;
+ color: black;
+}
+.accueil .content p{
+ font-size: 2rem;
+ font-weight: bolder;
+ line-height: 1.5;
+ padding: 1rem 0;
+ color:rgb(10, 10, 10);
+}
+
+/*histoire section*/
+ .histoire{
+     margin: 9rem;
+ }
+.grand img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 2rem 3rem;
+    
+    
+}
+.grand p{
+    font-size: 1.5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grand{
+    width: 100%;
+    display: flex;
+    
+}
+.grand h2{
+    text-align: center;
+    color: blue;
+}
+.grand .un{
+ 
+    color:black;
+    text-align: justify;
+    margin: 0px 15px;
+    
+}
+.grand .dive{
+    width: 25%;
+    align-items: center;
+}
+
+/*section conseille*/
+
+.slider{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 3rem;
+}
+.slides{
+    width: calc(500px*4);
+    animation: glisse 10s infinite;
+    
+ }
+ .slide h2{
+     font-size: 2rem;
+     color: #092c85;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .slide{
+    float: left;
+
+}
+
+@keyframes glisse{
+    0% {
+        transform: translateX(0);
+
+    }
+    25% {
+        transform: translateX(-500px);
+
+    }
+    50% {
+        transform: translateX(-1000px);
+
+    }
+    75% {
+        transform: translateX(-1500px);
+
+    }
+    100%{
+        transform: translateX(0);
+
+    }
+}
